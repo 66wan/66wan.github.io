@@ -9,6 +9,11 @@
 </head>
 <body>
 <script>
+u = navigator.userAgent
+
+document.write(!!u.match(/AppleWebKit.*Mobile.*/)||!!u.match(/AppleWebKit/));
+
+document.write('<br/>')
 document.write(navigator.userAgent)
 </script>
 </body>
